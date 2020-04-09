@@ -7,6 +7,7 @@
   * Added walkable pedestrian crosswalks in OpenDRIVE standalone mode
   * Improved mesh generation with a chunk system for better performance and bigger maps in the future
   * Added security features to the standalone OpenDRIVE mode aiming to prevent cars from falling down from the road
+  * Added junction smoothing algorithm to prevent roads from blocking other roads with level differences
   * Added new Behavior agent
   * Added automatic generation of traffic lights, stop signal and yield signal from OpenDRIVE file
   * Added examples of sumo co-simulation for Town01, Town04 and Town05
