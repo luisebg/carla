@@ -10,8 +10,11 @@
   * Added junction smoothing algorithm to prevent roads from blocking other roads with level differences
   * Added new Behavior agent
   * Added automatic generation of traffic lights, stop signal and yield signal from OpenDRIVE file
+  * Upgraded to AD RSS v3.0.0 supporting complex road layouts and i.e. intersections
   * Added examples of sumo co-simulation for Town01, Town04 and Town05
   * Added ptv vissim and carla co-simulation
+  * API extensions:
+    - Added new methods to `Map`: `get_all_landmarks`, `get_all_landmarks_from_id` and `get_all_landmarks_of_type`
 
 ## CARLA 0.9.8
 
